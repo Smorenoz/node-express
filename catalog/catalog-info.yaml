@@ -1,15 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: node-express
-  description: Node Express Sample App
+  name: tap-gui-component
+  description: Testing some stuff
   tags:
     - app-accelerator
-    - node
-    - express
+    - tap
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=node-express'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tap-gui-component'
 spec:
   type: service
   lifecycle: experimental
